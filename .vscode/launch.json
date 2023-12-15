@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift_type_checker}",
+            "name": "Debug swift_type_checker",
+            "program": "${workspaceFolder:swift_type_checker}/.build/debug/swift_type_checker",
+            "preLaunchTask": "swift: Build Debug swift_type_checker"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift_type_checker}",
+            "name": "Release swift_type_checker",
+            "program": "${workspaceFolder:swift_type_checker}/.build/release/swift_type_checker",
+            "preLaunchTask": "swift: Build Release swift_type_checker"
+        }
+    ]
+}
